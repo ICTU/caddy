@@ -12,5 +12,3 @@ ADD entrypoint.sh /caddy/entrypoint.sh
 RUN chmod +x /caddy/entrypoint.sh
 
 ENTRYPOINT ["/caddy/entrypoint.sh"]
-
-
